@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sitios Turisticos de Colombia</title>
+	<title>Karim & Martin</title>
 	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
    		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
    		crossorigin=""/>		
 	<link rel="stylesheet" type="text/css" href="style.css"/>	
-	<div id="map"></div>
-
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>	
-
+    <div class="inicio" >
+        <h1 data-aos="fade-down">Karim & Martín</h1>
+        <img data-aos="flip-right" class="imgInicio" src="https://cdn.create.vista.com/api/media/medium/394083416/stock-photo-horizontal-image-happy-couple-smiling-looking-each-other?token=" alt="">
+    </div>
+    <div class="ubicacion" data-aos="fade-right" >
+        <h3>¿Dónde nos casamos?</h3>
+        <div id="map"></div>
+    </div>
 	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
    		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    		crossorigin=""></script>   		
-	
 	<script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -1,4 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Hubballi', sans-serif;
+}
+h1{
+    font-size: 7rem;
+}
+h3{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.inicio, .ubicacion{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgInicio{
+    width: 100%;
+    border-radius: 1rem;
+}
 #map {
-    height: 35rem;
-    width: 80%;
-  }
+    min-height: 70vh;
+    width: 90%;
+}
